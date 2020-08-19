@@ -26,11 +26,20 @@ Quite a bit of time and effort went into designing this. If you want to show som
 This duct has not been merely designed in a wet-finger guessing way. It has been run through several dozens of iterations, the last of which were validated with computer simulations. See the ‘How I Designed This’ section for more details.
 
 
-### Printing
+### Pre-printing: check nozzle height
 
-There are two models. The ‘x1’ model has the exhausts 1 mm lower than the regular model. If you aligned your nozzles with [this tool](https://www.thingiverse.com/thing:1582720), you need the regular version. If you installed Micro Swiss all-metal hotends and followed their installation instructions to the letter, then your nozzles will be 1 mm lower and you need the ‘x1’ model. If you're unsure, you can check as follows what model you need. Bring the carriage forward so it is flush with the front edge of the print bed. Then raise the bed until it just touches the nozzle, as shown in the photo. Next, measure the distance between the bed and the bottom of the carriage. If this is close to 10 mm, you need the regular model. If it is closer to 11 mm, you need the x1 model. (Of course you could also just print both models and see which one works best.)
+There are two models to choose from. To determine which one you need, do the following test. *Move the bed against the nozzles (as if you are going to use the levelling sheet), then bring the carriage forward and measure the distance between the bed surface and the cradle as shown in the photo.*
 
 ![Alignment](thumbs/ductalign.jpg)[🔎](images/ductalign.jpg)
+
+The regular duct model is designed to be optimal if this distance is **10 mm,** which is normally the case on a standard FFCP. It should also be this way if you aligned the nozzles with [this leveler](https://www.thingiverse.com/thing:1582720).
+
+The ‘x1’ model is for when this distance is **11 mm.** This is likely the case if you installed Micro Swiss all-metal hot-ends and followed their instructions exactly.
+
+If your nozzles are at a considerably different height, you should consider realigning them. If that's not possible, your only option is to modify the duct model.
+
+
+### Printing
 
 As with the dual duct or any duct whatsoever, you must print this in a **heat-resistant material** because it is very close to the heater block, moreover this duct has even more material near the heated bed. Do *not* print it in PLA. I recommend **ABS** although even that may not be sufficiently heat-resistant on its own during ABS or PETG prints. If you are able to print in polycarbonate, it is probably the best option if you often print with the bed above 100°C or the extruders at 230°C or more. An ABS printed duct will do fine however if you add extra insulation (see *post-printing* section).
 

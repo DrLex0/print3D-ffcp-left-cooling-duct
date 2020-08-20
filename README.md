@@ -159,6 +159,9 @@ This is the same design but with a few minor changes that should make it slightl
 ### 2017/10/21: v3
 Almost a complete redesign, the result of performing CFD simulations in SimScale (OpenFOAM). The flows have been balanced and the dead zones have been eliminated. This duct is pretty much guaranteed to be very good. A nice side effect of the optimizations is that the duct is smaller and easier to mount.
 
+### 2020/08/20
+Migrate to GitHub, remove last bits of natewin's original source model, and provide Blender file. (No functional changes to the 3D models.)
+
 
 ## Tags
 `baffle`, `cfm`, `cooling`, `cooling_duct`, `duct`, `fan_duct`, `FFCP`, `FFCPRo`, `flashforge`, `FlashForge_Dreamer`, `OpenFOAM`, `SimScale`, `simulation`, `upgrade`

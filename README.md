@@ -43,7 +43,10 @@ If your nozzles are at a considerably different height, you should consider real
 
 As with the dual duct or any duct whatsoever, you must print this in a **heat-resistant material** because it is very close to the heater block, moreover this duct has even more material near the heated bed. Do *not* print it in PLA. I recommend **ABS** although even that may not be sufficiently heat-resistant on its own during ABS or PETG prints. If you are able to print in polycarbonate, it is probably the best option if you often print with the bed above 100°C or the extruders at 230°C or more. An ABS printed duct will do fine however if you add extra insulation (see *post-printing* section).
 
-Same as for the dual duct: do not enable supports, they could block the inner passages. The model is designed such that it will print well without supports. I recommend enabling cooling while printing the top layer of the main vent and the upper tip of the left exhaust (for this purpose the stock duct should suffice).
+This is designed to be printed with an extrusion width of 0.4 mm such that all structures have at least 2 perimeters. The recommended layer height is 0.2 mm. Thinner layers will of course also be OK, and might be beneficial for strength when printing in ABS.
+
+Same remark as for the dual duct: do not enable supports, they could block the inner passages. The model is designed such that it will print well without supports in the orientation of the STL file, i.e., with the inlet pointing upwards.
+I recommend enabling cooling while printing the top layer of the main vent and the upper tip of the left exhaust (for this purpose the stock duct should suffice).
 Infill doesn't matter much if your slicer is configured to always print small areas solid. If unsure, set infill to 100% for the entire print.
 
 
